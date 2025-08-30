@@ -1,0 +1,44 @@
+# Beautiful Jekyll Theme
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
+# Site settings
+title: "Emanuele Panigati"
+subtitle: "We apologize for the inconvenience"
+description: "Ph.D. in Information & Communication Technology, Cloud Technical Leader specializing in Java, Rust, IoT, Web Development, and Cybersecurity."
+avatar: "/assets/images/ChatGPT Image 29 mar 2025, 16_50_56.jpg"
+url: "https://ilpanich.github.io"
+baseurl: ""
+
+# Author settings
+author: "Emanuele Panigati"
+email: "gap-sensuous-chunk@duck.com"
+
+# Social media links
+social-network-links:
+  email: "gap-sensuous-chunk@duck.com"
+  github: ilpanich
+  linkedin: emanuelepanigati
+  google-scholar: "citations?user=nf5UkRAAAAAJ"
+  bluesky: ilpanich.bsky.social
+  instagram: panich85
+
+# Navigation menu
+navbar-links:
+  About: "about"
+  #Jobs: "jobs"
+  Skills: "skills"
+  Publications: "publications"
+  Contact: "contact"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: Europe/Rome
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
